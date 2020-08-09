@@ -1,0 +1,50 @@
+
+.Footer{
+    position: relative;
+    object-fit: fill;
+color: white;
+bottom:210px;
+display: flex;
+
+
+}
+.Footer_text{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+@keyframes spinTheRecord {
+    from {
+      transform: rotate(0deg);
+      color: indigo;
+    }
+    to {
+      transform: rotate(360deg);
+      color: lightcoral;
+    }
+  }
+
+  .videoFooter__record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    position: relative;
+    bottom: -90px;
+    right: 10px;
+    
+  }
+  .videoTicker  {
+      margin-top: 3di0px;
+    font-size: 16px;
+    width: 70%;
+    position: relative;
+    bottom: 40px;
+    margin-left: 40px;
+    
+    
+  }
+  .icon{
+      position: relative;
+      bottom: 0px;
+  }
